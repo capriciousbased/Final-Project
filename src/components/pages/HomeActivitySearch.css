@@ -1,0 +1,18 @@
+.home__search {
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.home__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.home__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
