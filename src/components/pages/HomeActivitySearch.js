@@ -1,9 +1,11 @@
 import React from "react";
 import "./HomeActivitySearch.css";
+import SearchImgUrl from "../../images/search.svg";
 
 function HomeActivitySearch() {
   return (
     <div className="home__search">
+     <img className="search_img" src={SearchImgUrl} alt="img1" />
       <h2>Ready to Find Happiness</h2>
       <div className="searchArea">
         <input
@@ -11,8 +13,11 @@ function HomeActivitySearch() {
           type="text"
           placeholder="Find Activities"
         />
-        <button type="submit" className="search__btn">Search</button>
+        <button type="submit" className="search__btn">
+          Search
+        </button>
       </div>
+      
     </div>
   );
 }
