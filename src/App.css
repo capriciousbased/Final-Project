@@ -44,14 +44,13 @@
   font-size: 100px;
 }
 
-.marketing {
-  background-image: url("./images/img-6.jpg");
+/* .home__search {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+  height: 100px;
+  width: 100;
+} */
 
 .login {
   background-image: url("./images/login.jpg");

@@ -1,16 +1,18 @@
 import React from "react";
-import SearchIcon from "@material-ui/icons/Search";
+import "./HomeActivitySearch.css";
 
 function HomeActivitySearch() {
   return (
     <div className="home__search">
       <h2>Ready to Find Happiness</h2>
-      <input
-        className="home__searchInput"
-        type="text"
-        placeholder="Find Activities"
-      />
-      <SearchIcon className="home__searchIcon" />
+      <div className="searchArea">
+        <input
+          className="home__searchInput"
+          type="text"
+          placeholder="Find Activities"
+        />
+        <button type="submit" className="search__btn">Search</button>
+      </div>
     </div>
   );
 }

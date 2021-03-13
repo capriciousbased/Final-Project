@@ -1,20 +1,26 @@
 .home__search {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  border-radius: 44px;
-  background-color: #da124e;
+  background-color: lightblue;
+  width: 100vw;
+  margin: 50px;
+  padding: 150px 0;
+}
+
+.home__search > h2 {
+  font-size: 45px;
+  padding: 20px;
 }
 
 .home__searchInput {
-  height: 22px;
-  padding: 10px;
+  height: 40px;
   border: none;
-  width: 100%;
+  width: 30vw;
 }
 
-.home__searchIcon {
+.search__btn {
   margin: 10px;
-  padding: 15px;
-  height: 32px;
-  background-color: #da124e;
+  font-size: 20px;
+  padding: 8px;
 }
