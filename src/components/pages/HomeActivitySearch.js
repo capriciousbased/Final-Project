@@ -5,7 +5,11 @@ function HomeActivitySearch() {
   return (
     <div className="home__search">
       <h2>Ready to Find Happiness</h2>
-      <input className="home__searchInput" type="text" />
+      <input
+        className="home__searchInput"
+        type="text"
+        placeholder="Find Activities"
+      />
       <SearchIcon className="home__searchIcon" />
     </div>
   );

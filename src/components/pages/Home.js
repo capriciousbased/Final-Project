@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import HomeImgUrl1 from "../../images/img-1.jpg";
-import HomeImgUrl2 from "../../images/img-2.jpg";
+import HomeImgUrl1 from "../../images/img-1.svg";
+import HomeImgUrl2 from "../../images/img-2.svg";
 import HomeActivitySearch from "./HomeActivitySearch";
 
 function Home() {
@@ -28,6 +28,7 @@ function Home() {
           Aliquid.
         </div>
       </div>
+
       <HomeActivitySearch />
     </div>
   );
