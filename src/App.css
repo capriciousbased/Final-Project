@@ -27,12 +27,13 @@
 }
 
 .find {
-  background-image: url("./images/find.jpg");
+  background-image: url("./images/activity.svg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  background-color: rgba(26, 26, 27, 0.99);
 }
 
 .sign-up {
