@@ -1,0 +1,33 @@
+.mission {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.mission-img {
+  width: 100%;
+  height: 40vh;
+  background: rgb(219, 245, 245);
+}
+
+.mission-heading {
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.mission-text {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.team-img {
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+  margin: 10px auto;
+}

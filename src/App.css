@@ -17,15 +17,6 @@
   font-size: 3rem;
 }
 
-.about {
-  background-image: url("./images/about-us.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .find {
   background-image: url("./images/activity.svg");
   background-position: center;
