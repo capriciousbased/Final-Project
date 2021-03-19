@@ -1,8 +1,7 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif, Helvetica, Arial;
+  box-sizing: border-box;
 }
 
 .about,
@@ -36,13 +35,16 @@
   font-size: 100px;
 }
 
-/* .home__search {
+.search {
+  background-image: url("./images/activity-src.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100px;
-  width: 100;
-} */
+  width: 100vw;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
 
 .login {
   background-image: url("./images/login.jpg");
@@ -52,3 +54,109 @@
   color: #fff;
   font-size: 100px;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 80px auto;
+  font-size: 20px;
+}
+
+.search-title {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 38px;
+}
+
+.input {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px auto;
+  width: 100%;
+  border: none;
+  border-color: transparent;
+  padding: 0.5rem;
+  background: #8e9292;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+.events-center{
+    width: 85vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    background-color: rgb(212, 186, 186);
+    /* align-items: start; */
+}
+
+  @media screen and (min-width: 576px) {
+    .events-center {
+      grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+      background-color: rgb(212, 186, 186);
+      margin-bottom: 80px;
+    }
+}
+.resultCard {
+  margin: 15px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 8px 7px 13px 0px #dadada;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+}
+
+.gallery-frame {
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #333;
+  color: #d9d9d9;
+}
+
+.event-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  align-content: center;
+  margin: 20px auto;
+  padding: 10px;
+}
+/* .result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.event-image {
+  width: 85vw;
+  margin: 0 auto;
+  
+}
+@media screen and (min-width: 576px) {
+  .cocktails-center {
+    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+  }
+} */
