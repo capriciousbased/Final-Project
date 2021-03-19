@@ -30,11 +30,16 @@
   max-width: 60%;
 }
 
-.container > img {
+.home-header {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.home-img {
   width: 22em;
   height: 17em;
   margin: 2em;
   padding: 1em;
+  background-color: cadetblue;
 }
 
 @media (max-width: 768px) {

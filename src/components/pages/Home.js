@@ -9,23 +9,33 @@ function Home() {
     <div className="homeContainer">
       <div className="container">
         <div className="homeText">
-          <h2>Bored at Home? </h2>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
-          delectus aut cupiditate ipsum quis odit est velit doloribus dolor
-          fugit libero aliquam non perferendis, recusandae facere enim
-          accusantium similique ex.
+          <h2 className="home-header">The Motivity Factor… </h2>
+          <p>
+            After over a year of lockdowns, restrictions and social guidelines,
+            the majority of us is still stuck at home. And yes, yes, we get it -
+            it is extremely important to keep ourselves and others safe by being
+            patient and practicing social distancing. But that doesn’t mean we
+            can’t have fun and make the most of our time! Motivity provides you
+            with the ultimate guide for what to do when, where and with who
+            during this pandemic!
+          </p>
         </div>
-        <img src={HomeImgUrl1} alt="img1" />
+        <img className="home-img" src={HomeImgUrl1} alt="img1" />
       </div>
 
       <div className="container">
-        <img src={HomeImgUrl2} alt="img2" />
+        <img className="home-img" src={HomeImgUrl2} alt="img2" />
         <div className="homeText">
-          <h2>we got you </h2>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, neque
-          modi omnis dolor tempore architecto est consectetur, earum nostrum
-          vero necessitatibus nam quidem quam fuga ipsa deleniti, odio soluta?
-          Aliquid.
+          <h2 className="home-header"> ...we got you covered!</h2>
+          <p>
+            Depending on your mood and personal preference, choose between our
+            six main activity categories and get inspired. Regardless of whether
+            you feel like hanging out by yourself or with others, you’d rather
+            stay at home or get some fresh air in, or whether you cannot get
+            enough of your electronic devices or would love a break from the
+            online world - Motivity got your back. Get inspired and stuck into
+            our epic list of recommendations, events and activities near you!
+          </p>
         </div>
       </div>
 
