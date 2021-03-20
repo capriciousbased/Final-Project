@@ -22,7 +22,7 @@ export default function FindActivity() {
 
   return (
     <div className="search">
-      <div className="container searchApp">
+      <div className="event-container searchApp">
         <SearchBar onSearch={onSearch} />
         <CardList results={state.results} />
       </div>

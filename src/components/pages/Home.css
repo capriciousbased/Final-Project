@@ -10,10 +10,11 @@
   margin-top: 0.15em;
 }
 
-.container {
+.main-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
 }
 
 @media (max-width: 480px) {

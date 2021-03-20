@@ -7,7 +7,7 @@ import HomeActivitySearch from "./HomeActivitySearch";
 function Home() {
   return (
     <div className="homeContainer">
-      <div className="container">
+      <div className="main-container">
         <div className="homeText">
           <h2 className="home-header">The Motivity Factor… </h2>
           <p>
@@ -23,7 +23,7 @@ function Home() {
         <img className="home-img" src={HomeImgUrl1} alt="img1" />
       </div>
 
-      <div className="container">
+      <div className="main-container">
         <img className="home-img" src={HomeImgUrl2} alt="img2" />
         <div className="homeText">
           <h2 className="home-header"> ...we got you covered!</h2>

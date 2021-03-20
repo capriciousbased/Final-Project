@@ -41,7 +41,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 98vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
 }
@@ -55,7 +55,7 @@
   font-size: 100px;
 }
 
-.container {
+.event-container {
   display: flex;
   flex-direction: column;
 }
@@ -79,7 +79,7 @@
   text-align: center;
   font-size: 24px;
   margin: 20px auto;
-  width: 100%;
+  width: 30%;
   border: none;
   border-color: transparent;
   padding: 0.5rem;
@@ -95,23 +95,23 @@ p {
   margin: 10px 0px;
 }
 
-.events-center{
-    width: 85vw;
-    margin: 0 auto;
-    max-width: 1170px;
-    display: grid;
-    row-gap: 2rem;
-    column-gap: 2rem;
-    background-color: rgb(212, 186, 186);
-    /* align-items: start; */
+.events-center {
+  width: 85vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  background-color: rgb(212, 186, 186);
+  /* align-items: start; */
 }
 
-  @media screen and (min-width: 576px) {
-    .events-center {
-      grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
-      background-color: rgb(212, 186, 186);
-      margin-bottom: 80px;
-    }
+@media screen and (min-width: 576px) {
+  .events-center {
+    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
+    background-color: rgb(212, 186, 186);
+    margin-bottom: 80px;
+  }
 }
 .resultCard {
   margin: 15px;
