@@ -56,7 +56,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-            <FontAwesomeIcon icon={faSearchengin} />
+              <FontAwesomeIcon icon={faSearchengin} />
               Find Activity
             </Link>
           </li>
@@ -71,7 +71,7 @@ function Navbar() {
               className="nav-links-mobile"
               onClick={closeMobileMenu}
             >
-              Log In
+              Sign In
             </Link>
           </li>
         </ul>
