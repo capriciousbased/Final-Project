@@ -1,0 +1,25 @@
+.event-details {
+    width: 60vw;
+    height: 100%;
+    margin: 15px auto;
+  }
+  .singleEvent-image {
+    width: 60%;
+    height:60%;
+    margin: 10px auto;
+    padding: 10px;
+    align-content: center;
+  }
+  .event-info {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .event-description {
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  
