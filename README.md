@@ -67,4 +67,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Md Anisul Hoque Khan - [@linkedin](https://www.linkedin.com/in/anisulkhan/) - mdkhan@gmx.de
 
-Project Link: [https://github.com/capriciousbased](hhttps://github.com/capriciousbased/Final-Project)
+Project Link: [https://github.com/capriciousbased/Final-Project](https://github.com/capriciousbased/Final-Project)
