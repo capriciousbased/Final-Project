@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle&family=Poiret+One&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "News Cycle","Poiret One", sans-serif;
 }
 
+h2 {
+  font-family: "Poiret One", "News Cycle", sans-serif;
+}
 .about,
 .find,
 .sign-up,
@@ -143,20 +148,4 @@ p {
   margin: 20px auto;
   padding: 10px;
 }
-/* .result {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.event-image {
-  width: 85vw;
-  margin: 0 auto;
-  
-}
-@media screen and (min-width: 576px) {
-  .cocktails-center {
-    grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
-  }
-} */

@@ -62,7 +62,7 @@ input {
     align-items: center;
     width: 100vw;
     margin: 50px auto;
-    padding: 250px;
+    padding: 80px;
     background: linear-gradient(
       to bottom,
       rgb(193, 193, 238),
@@ -71,7 +71,7 @@ input {
   }
 
   .home__search > h2 {
-    font-size: 35px;
+    font-size: 25px;
     padding: 15px;
   }
   .searchArea {
@@ -99,5 +99,14 @@ input {
     padding: 10px 0;
     z-index: -1;
     /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+  }
+
+  .search_text {
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: normal;
   }
 }
