@@ -5,7 +5,7 @@ import teamImg from "../../images/meet-team.png";
 
 export default function AboutUs() {
   return (
-    <div class="about-us">
+    <div className="about-us">
       <div className="mission">
         <img className="mission-img" src={missionImg} alt="" />
         <h2 className="mission-heading">
@@ -36,7 +36,7 @@ export default function AboutUs() {
         </p>
       </div>
       <img className="team-img" src={teamImg} alt="" />
-      
+
       <div className="team-text">
         <h2>The team</h2>
         <p>

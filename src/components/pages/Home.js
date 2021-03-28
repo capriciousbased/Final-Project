@@ -20,11 +20,11 @@ function Home() {
             during this pandemic!
           </p>
         </div>
-        <img className="home-img" src={HomeImgUrl1} alt="img1" />
+        <img className="home-img1" src={HomeImgUrl1} alt="img1" />
       </div>
 
       <div className="main-container">
-        <img className="home-img" src={HomeImgUrl2} alt="img2" />
+        <img className="home-img2" src={HomeImgUrl2} alt="img2" />
         <div className="homeText">
           <h2 className="home-header"> ...we got you covered!</h2>
           <p>

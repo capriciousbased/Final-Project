@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../images/logo.png";
+import logo from "../images/logos.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchengin } from "@fortawesome/free-brands-svg-icons";
 
@@ -34,6 +34,16 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
+              to="/find-activity"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              <FontAwesomeIcon icon={faSearchengin} />
+              Find Activity
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
               to="/About-us"
               className="nav-links"
               onClick={closeMobileMenu}
@@ -48,16 +58,6 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               Contact Us
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/find-activity"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              <FontAwesomeIcon icon={faSearchengin} />
-              Find Activity
             </Link>
           </li>
           <li className="nav-item">
