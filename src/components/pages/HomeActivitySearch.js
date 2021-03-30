@@ -23,7 +23,7 @@ function HomeActivitySearch() {
       </p>
       <h2>What are you waiting for? Get, set, go!</h2>
       <div className="searchArea">
-        <Button variant="contained" color="primary" href="/find-activity">
+        <Button className="searchButton" variant="contained" color="primary" href="/find-activity">
           Search
         </Button>
       </div>

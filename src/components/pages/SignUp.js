@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
+    backgroundColor: "#213658",
   },
 }));
 
@@ -50,7 +51,7 @@ export default function SignUp() {
   const classes = useStyles();
 
   return (
-    <Container component="main" maxWidth="xs">
+    <Container className="signup_container" component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
         <Avatar className={classes.avatar}>

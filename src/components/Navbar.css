@@ -10,16 +10,16 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
 }
 
 .logo {
-  height: 85px;
+  height: 75px;
   width: 75px;
-  
+  background-color: #de869b;
 }
 
 .fa-firstdraft {
@@ -48,6 +48,7 @@
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  background-color: #de869d;
 }
 
 .nav-links:hover {
@@ -109,14 +110,15 @@
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 10px;
+    margin-left: 8px;
     transform: translate(10%, 25%);
   }
   .logo {
     padding: 0;
     margin: 0;
-    height: 70px;
-    width: 65px;
+    height: 50px;
+    width: 55px;
+    margin-bottom: 10px;
   }
   .menu-icon {
     display: block;
