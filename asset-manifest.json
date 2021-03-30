@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Final-Project/static/css/main.96a7eebd.chunk.css",
+    "main.js": "/Final-Project/static/js/main.b3e6cac5.chunk.js",
+    "main.js.map": "/Final-Project/static/js/main.b3e6cac5.chunk.js.map",
+    "runtime-main.js": "/Final-Project/static/js/runtime-main.86264dc4.js",
+    "runtime-main.js.map": "/Final-Project/static/js/runtime-main.86264dc4.js.map",
+    "static/js/2.b872d6e8.chunk.js": "/Final-Project/static/js/2.b872d6e8.chunk.js",
+    "static/js/2.b872d6e8.chunk.js.map": "/Final-Project/static/js/2.b872d6e8.chunk.js.map",
+    "index.html": "/Final-Project/index.html",
+    "precache-manifest.4d9604c3c24f0ad468c843a42e2ad1e3.js": "/Final-Project/precache-manifest.4d9604c3c24f0ad468c843a42e2ad1e3.js",
+    "service-worker.js": "/Final-Project/service-worker.js",
+    "static/css/main.96a7eebd.chunk.css.map": "/Final-Project/static/css/main.96a7eebd.chunk.css.map",
+    "static/js/2.b872d6e8.chunk.js.LICENSE.txt": "/Final-Project/static/js/2.b872d6e8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Final-Project/static/media/signup.e9139022.jpg",
+    "static/media/img-1.svg": "/Final-Project/static/media/img-1.6da978bd.svg",
+    "static/media/img-2.svg": "/Final-Project/static/media/img-2.7c23b226.svg",
+    "static/media/logos.svg": "/Final-Project/static/media/logos.2412e7d7.svg",
+    "static/media/meet-team.png": "/Final-Project/static/media/meet-team.a637a8b7.png",
+    "static/media/mission.svg": "/Final-Project/static/media/mission.d63b75aa.svg",
+    "static/media/search.svg": "/Final-Project/static/media/search.903d76af.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86264dc4.js",
+    "static/js/2.b872d6e8.chunk.js",
+    "static/css/main.96a7eebd.chunk.css",
+    "static/js/main.b3e6cac5.chunk.js"
+  ]
+}
