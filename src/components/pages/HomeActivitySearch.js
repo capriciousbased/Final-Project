@@ -2,6 +2,8 @@ import React from "react";
 import "./HomeActivitySearch.css";
 import SearchImgUrl from "../../images/search.svg";
 import Button from "@material-ui/core/Button";
+import { Link as RouterLink } from "react-router-dom";
+import { Link } from "@material-ui/core";
 
 function HomeActivitySearch() {
   return (
@@ -23,9 +25,11 @@ function HomeActivitySearch() {
       </p>
       <h2>What are you waiting for? Get, set, go!</h2>
       <div className="searchArea">
-        <Button className="searchButton" variant="contained" color="primary" href="/find-activity">
-          Search
-        </Button>
+        <Link component={RouterLink} to="/find-activity">
+          <Button className="searchButton" variant="contained" color="primary">
+            Search
+          </Button>
+        </Link>
       </div>
     </div>
   );
