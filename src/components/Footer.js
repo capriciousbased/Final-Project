@@ -11,7 +11,7 @@ import {
 export default function Footer() {
   return (
     <div className="footer-container">
-      <h3>Copyright © 2021 Motivity</h3>
+      <h3>&copy;{new Date().getFullYear()} Motivity</h3>
       <a href="https://www.youtube.com/" className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
