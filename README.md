@@ -1,7 +1,5 @@
 <!-- ABOUT THE PROJECT -->
 
-<!-- test comment for gpg connection -->
-
 # About The Project
 
 ## Final Project of Techlabs Bootcamp
